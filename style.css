@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+      margin: 0;
+     }
+  .FirstDiv {
+  background-image: url(JenPic/jen1.jpg);
+  background-size: 100% 500px;
+  display: flex;
+  justify-content: center; 
+  
+  .headtag {
+    text-align: center; 
+
+   }
+
+}
+  .Navigation {  position:-webkit-sticky;
+            position: sticky;
+            top: 0;
+            
+    }
+
+.Navi {
+        list-style-type: none;
+        background-color: black;
+        margin-top: 0;
+      }
+      .Navi li {
+display: inline-block;        margin: 20px;
+        border-right: 2px black solid;
+        padding: 2px;
+        
+      }
+      li a {
+        text-decoration-line: none;
+      }
+.No   {
+        clear: left;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+h2, h3, p { text-align: center;
+}
+
+      a:link {
+        color: aquamarine;
+      }
+      
+      a:visited {
+        color: pink;
+      }
+      
+      a:hover {
+        color: hotpink;
+        font-size: x-large;
+      }
+      
+      a:active {
+        color:gold;
+      }
+      
+      .ThirdDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:pink;
+        margin-top: 0;
+      }
+.All { background-color: pink;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.LastDiv { background-color: aquamarine;
+margin-top: 0;
+margin-bottom: 0;
+padding: 10px;}
+
+.inti { 
+  padding: 10px;
+}
+.two {  background-color: pink; /* For browsers that do not support gradients */
+  background-image: radial-gradient(circle,pink ,aquamarine , hotpink);
+  height: auto;
+  width: auto;}
+  
